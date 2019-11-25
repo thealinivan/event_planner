@@ -8,5 +8,26 @@
   </head>
   <body>
 
+      <div class="carousel">
+        <div class="grid-container">
+
+          <div class="phone-input-container">
+            <input type="tel" id="phone" name="phone" maxLength="15" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+            <button type="button" name="phon-btn">Send SMS</button>
+          </div>
+
+          <div class="sms-input-container">
+            <input type="text" id="sms-code" name="code" maxLength="4" size="4" min="0" max="9" pattern="[0-9]{4}">
+            <button type="button" name="code-btn">Verify Code</button>
+          </div>
+
+          <div class="grid-container nav-container">
+            <p class="btn left-btn"></p>
+            <p class="btn right-btn"></p>
+          </div>
+
+        </div>
+      </div>
+
   </body>
 </html>

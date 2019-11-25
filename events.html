@@ -6,5 +6,21 @@
   </head>
   <body>
 
+    <div class="grid-container events-body">
+
+      <h1>User ID</h1>
+      <p class="btn left-btn logout-btn"></p>
+      <button type="button" name="add-event">New event</button>
+      <div class="grid-container event-list"></div>
+
+      <div class="grid-container add-new-event">
+        <form action="/action_page.php" method="POST">
+            <input type="file" name="pic" accept="image/*">
+            <input type="submit">
+        </form>
+      </div>
+
+    </div>
+
   </body>
 </html>
